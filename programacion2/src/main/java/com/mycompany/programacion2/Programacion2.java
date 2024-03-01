@@ -1,12 +1,13 @@
-package com.mycompany.programacion1;
+package com.mycompany.programacion2;
 
 public class Programacion2 {
 
     public static void main(String[] args) {
-        Character homero = new Character("Homero", "Inspector de Seguridad", 33, "Pequeño Demonio");
+        Character homero = new Character("Homero", "Inspector de Seguridad", 33, "PequeÃ±o Demonio");
         homero.greeting();
         
-        
+        Character bart = new Character("Bartolomeo", "Vago", 10, "Ay Caramba!");
+        bart.greeting();
     }
     static class Character{
         String name;
